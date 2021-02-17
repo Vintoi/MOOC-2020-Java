@@ -1,0 +1,27 @@
+2020-05-03 16:04:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TODO" already exists; SQL statement:
+CREATE TABLE Todo (id int auto_increment primary key, nimi varchar(255), kuvaus varchar(10000), valmis boolean) [42101-197]
+2020-05-03 16:04:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TODO" already exists; SQL statement:
+CREATE TABLE Todo (id int auto_increment primary key, nimi varchar(255), kuvaus varchar(10000), valmis boolean) [42101-197]
+2020-05-03 16:06:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TODO" already exists; SQL statement:
+CREATE TABLE Todo (id int auto_increment primary key, nimi varchar(255), kuvaus varchar(10000), valmis boolean) [42101-197]
+2020-05-03 16:06:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TODO" already exists; SQL statement:
+CREATE TABLE Todo (id int auto_increment primary key, nimi varchar(255), kuvaus varchar(10000), valmis boolean) [42101-197]
+2020-05-03 16:10:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TODO" already exists; SQL statement:
+CREATE TABLE Todo (id int auto_increment primary key, nimi varchar(255), kuvaus varchar(10000), valmis boolean) [42101-197]
+2020-05-03 16:10:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TODO" already exists; SQL statement:
+CREATE TABLE Todo (id int auto_increment primary key, nimi varchar(255), kuvaus varchar(10000), valmis boolean) [42101-197]
+2020-05-03 16:10:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TODO" already exists; SQL statement:
+CREATE TABLE Todo (id int auto_increment primary key, nimi varchar(255), kuvaus varchar(10000), valmis boolean) [42101-197]
+2020-05-03 16:13:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TODO" already exists; SQL statement:
+CREATE TABLE Todo (id int auto_increment primary key, nimi varchar(255), kuvaus varchar(10000), valmis boolean) [42101-197]
+2020-05-03 16:13:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TODO" already exists; SQL statement:
+CREATE TABLE Todo (id int auto_increment primary key, nimi varchar(255), kuvaus varchar(10000), valmis boolean) [42101-197]

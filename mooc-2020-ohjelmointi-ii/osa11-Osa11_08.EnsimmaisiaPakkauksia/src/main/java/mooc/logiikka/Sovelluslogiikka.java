@@ -1,0 +1,20 @@
+package mooc.logiikka;
+import mooc.ui.Kayttoliittyma;
+
+/**
+ *
+ * @author oskar
+ */
+public class Sovelluslogiikka {
+    private Kayttoliittyma kali;
+    
+    public Sovelluslogiikka(Kayttoliittyma kayttoliittyma){
+        kali = kayttoliittyma;
+    }
+    public void suorita(int montaKertaa){
+        for (int i = 0; i < montaKertaa; i++){
+            System.out.println("Sovelluslogiikka toimii");
+            kali.paivita();
+        }
+    }
+}

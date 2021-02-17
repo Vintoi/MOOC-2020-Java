@@ -1,0 +1,38 @@
+package ilmoitin;
+
+import javafx.application.Application;
+import static javafx.application.Application.launch;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+
+public class IlmoitinSovellus extends Application  {
+
+    @Override
+    public void start(Stage ikkuna) {
+        VBox vBox = new VBox();
+        TextField tekstikentta = new TextField();
+        Button nappi = new Button("Päivitä");
+        Label tekstikomponentti = new Label("");
+        
+        vBox.getChildren().addAll(tekstikentta, nappi, tekstikomponentti);
+        
+        nappi.setOnAction((event) -> {
+            tekstikomponentti.setText(tekstikentta.getText());
+        });
+        
+        Scene nakyma = new Scene(vBox);
+        ikkuna.setScene(nakyma);
+        ikkuna.show(); 
+        
+    }
+    
+    public static void main(String[] args) {
+        launch(IlmoitinSovellus.class);
+    }
+}
